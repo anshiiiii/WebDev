@@ -1,0 +1,14 @@
+h1{
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+h2{
+    color: rgba(0, 0, 255, 1);    /* last component refers to transparency */
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+h3{
+    color: #00ff00;  /*hexa code */
+}
+h4{
+    color: hsl(33, 50%, 50%);  /* hue, saturation, lightness */
+}

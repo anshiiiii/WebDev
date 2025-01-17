@@ -1,0 +1,3 @@
+Tailwind Responsiveness
+- md: medium size screen
+- lg: large size screen

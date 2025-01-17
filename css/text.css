@@ -1,0 +1,39 @@
+.one{
+    color: salmon;
+    background-color: aquamarine;
+    text-align: center;
+    direction: rtl;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+    text-transform: uppercase;
+    text-indent: 20px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 3px black;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.ne{
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 20px;
+    font-family: "Playwrite AU SA", serif;
+}
+a{
+    color: cadetblue;
+    text-decoration: none;
+    font-size: larger;
+}
+a:visited{
+    color: darkblue;
+}
+a:active{
+    color: darkred;
+}
+a:hover{
+    color: darkgreen;
+}

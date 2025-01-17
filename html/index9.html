@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMG</title>
+</head>
+<body>
+    <img src="images/mt.jpg" height="500" width="500" alt="MT-15"/>
+    <a href="https://gaadiwaadi.com/this-limited-edition-1967-ford-mustang-gets-a-modern-ev-powertrain/" target="_blank">
+    <img src="https://gaadiwaadi.com/wp-content/uploads/2022/03/Charge-Cars-1967-Ford-Mustang-EV-img1-1068x668.jpg" height="500" width="500" alt="1967 Mustang"/>
+    </a>
+
+    <picture>
+        <source media="(min-width:650px)" srcset="https://cdn.prod.website-files.com/63fe11299d35c575d57a5632/646f6a50f85ad0cd7e9fac36_JPEG-Ford-Mustang-blauw-.jpeg" alt="Blue"/>
+        <source media="(min-width:450px)" srcset="https://cdn.dealeraccelerate.com/cam/34/1971/82606/1920x1440/1965-ford-mustang-gt-fastback"/>
+        <img src="https://cdn.dealeraccelerate.com/coyote/1/832/67903/1920x1440/1965-ford-mustang-fastback"/>
+    </picture>
+
+    <!-- If the screen width is 650px or larger, the browser will load first-one(blue).
+    If the screen width is between 450px and 649px, it will load second one(olive green).
+    If the screen width is less than 450px, the browser will fall back to last-one(creame). -->
+    <!-- The <picture> tag helps ensure that the image fits the device's screen size and resolution, optimizing the user experience. -->
+    
+    <video controls width="500">
+        <!-- External video source -->
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <video controls width="500">
+        <source src="video/vid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>

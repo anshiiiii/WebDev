@@ -1,0 +1,19 @@
+/* * refers to universal-selector- */
+*{
+    color: skyblue;
+}
+/* h1 refers to element selector */
+h1{
+    color: blanchedalmond;
+}
+/* .sub-heading refers to class selector(reusable) */
+.sub-heading{
+    color: beige;
+}
+/* #new refers to id selector(it is unique and not reusable) */
+#new{
+    color: blueviolet;
+}
+/* h1,p{
+    color: blue;
+ }              when same style properties to be used for multiple tags */
