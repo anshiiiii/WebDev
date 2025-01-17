@@ -1,1 +1,1 @@
-A repository for my learning journey in WebDev
+A repository for my learnings in WebDev
